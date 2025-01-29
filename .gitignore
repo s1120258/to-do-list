@@ -6,7 +6,9 @@
 
 # Build folder
 Build
-bin
+
+# Database
+todo.db
 
 # Prerequisites
 *.d
