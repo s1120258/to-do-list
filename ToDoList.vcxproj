@@ -119,8 +119,14 @@
     <QtRcc Include="ToDoList.qrc" />
     <QtUic Include="ToDoList.ui" />
     <QtMoc Include="ToDoList.h" />
+    <ClCompile Include="Database.cpp" />
+    <ClCompile Include="TaskItemWidget.cpp" />
     <ClCompile Include="ToDoList.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Database.h" />
+    <QtMoc Include="TaskItemWidget.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

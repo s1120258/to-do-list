@@ -8,7 +8,7 @@
 Build
 
 # Database
-todo.db
+*.db
 
 # Prerequisites
 *.d
